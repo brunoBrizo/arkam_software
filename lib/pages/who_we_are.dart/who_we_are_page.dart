@@ -49,7 +49,7 @@ class _WhoWeAreDesktopState extends State<WhoWeAreDesktop> {
         width: size.width * 0.65,
         padding: EdgeInsets.all(35.0),
         child: Column(
-          mainAxisSize: MainAxisSize.max,
+          mainAxisSize: MainAxisSize.min,
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             whoIAmWidget(30, language),

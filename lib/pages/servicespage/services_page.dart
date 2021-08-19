@@ -42,7 +42,7 @@ class _DesktopServicesPageState extends State<DesktopServicesPage> {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 0.1 * width),
       width: width,
-      height: height * 1.25,
+      //height: height * 1.25,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
@@ -154,7 +154,7 @@ class _DesktopServicesPageState extends State<DesktopServicesPage> {
             ],
           ),
           SizedBox(
-            height: 0.0,
+            height: 80.0,
           ),
           /*        Row(
             mainAxisSize: MainAxisSize.max,
